@@ -90,7 +90,7 @@ define([
         //View for the index
         setDefaultView: function () {
             this.route = 'index';
-            console.log('index');
+            //console.log('index');
             this.$content.html('');
             var view = new SidebarView({
                 collectionLenght: this.collection.comicsInCollection(),
@@ -110,7 +110,7 @@ define([
         //View for adding new comic
         setNewView: function () {
             this.route = 'new';
-            console.log('new');
+            //console.log('new');
             this.$content.html('');
             var view = new SidebarView({
                 collectionLenght: this.collection.comicsInCollection(),
@@ -131,7 +131,7 @@ define([
         //View for edit and view comic
         setEditView: function (model) {
             this.route = 'edit';
-            console.log('edit');
+            //console.log('edit');
             this.$content.html('');
             var title = model.get('title');
             if (model.get('issueNo') != '') {
@@ -156,7 +156,7 @@ define([
         //Statistics view
         setStatsView: function () {
             this.route = 'stats';
-            console.log('stats');
+            //console.log('stats');
             this.$content.html('');
             var statsView = new StatsView({
                 collection: this.collection
