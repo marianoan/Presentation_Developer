@@ -1,0 +1,20 @@
+﻿ <img id="image" src="<%- image %>">
+
+    <div class="hide-for-small panel">
+        <h3><%- title %></h3>
+        <h5 class="subheader">
+            <%- text %>
+        </h5>
+    </div>
+
+    <% if(count) { %>
+    <div class="panel callout radius" id="quantity">
+        <h6><%- collectionLenght %>  comic books in your collection</h6>
+    </div>
+    <% } %>
+
+    <% if(item) { %>
+    <div class="panel callout radius" id="share">
+        <h6>Share on Facebook!</h6>
+    </div>
+    <% } %>
