@@ -10,5 +10,6 @@ Tecnologias Utilizadas:
 	.jQuery UI
 	.Google Charts
 	.Require JS
+	.Underscore
 
 No se implemento la subida de archivos para no desarrollar en backend
